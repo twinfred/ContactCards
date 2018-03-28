@@ -11,6 +11,28 @@
     <title>Contact Cards</title>
 </head>
 <body>
-    
+    <div id="wrapper" class="borderBox">
+        <div id="header" class="borderBox textCenter">
+            <h1 class="borderBox">Contact Cards</h1>
+            <h3 class="borderBox">Add a contact card to the right using the form on the left</h3>
+        </div>
+        <div id="leftForm" class="borderBox inBlock verTop">
+            <h2 class="borderBox bottomBorder">Add Contact Card</h2>
+            <form>
+                <p>First Name: <input id="first_name" type="text" autocomplete="given-name" placeholder="John"></p>
+                <p>Last Name: <input id="last_name" type="text" autocomplete="family-name" placeholder="Doe"></p>
+                <p>Description:</p>
+                <textarea id="contact_description" class="borderBox" cols="40" rows="5" placeholder="John is a doctor during the day and a super hero at night."></textarea>
+                <button class="block">Add User</button>
+            </form>
+        </div>
+        <div id="rightCards" class="borderBox inBlock verTop">
+            <div class="contact_card borderBox inBlock verTop textCenter">
+                <h4>Tim Winfred</h4>
+                <p class="clickForDescription">Click for description!</p>
+                <p class="contactDescription" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi non nesciunt libero similique pariatur quasi, ea modi molestias voluptatum provident rem. Nobis quo voluptatum consectetur corrupti recusandae eum cumque quam.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

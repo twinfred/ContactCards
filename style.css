@@ -1,48 +1,114 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+    background-color: #eaeaea;
 }
-ol, ul {
-	list-style: none;
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: white;
 }
-blockquote, q {
-	quotes: none;
+h1, h2, h3, h4, h5, h6, button, table, tbody, thead, tr, th, td, div, span, a, input, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2e2e2e;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+h1 {
+    font-size: 40px;
+    padding: 5px;
+    line-height: 50px;
+    color: green;
+    font-weight: bold;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+h2 {
+    font-size: 20px;
+    padding: 5px;
+    line-height: 30px;
+    color: green;
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+    padding: 5px;
+    line-height: 26px;
+    font-style: italic;
+}
+h4 {
+    font-size: 45px;
+    padding: 45px;
+    line-height: 40px;
+    color: green;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+    line-height: 22px;
+}
+button {
+    margin: 10px 0px;
+}
+/* HEADER SECTION */
+#header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/* FORM SECTION - LEFT SIDE */
+#leftForm {
+    width: 35%;
+    height: 318px;
+    padding: 10px;
+    margin-right: 3px;
+    background-color: #eaeaea;
+    border: 1px solid #2e2e2e;
+}
+form {
+    padding-top: 10px;
+}
+input {
+    margin: 3px 0px;
+}
+textarea, input {
+    padding-left: 3px;
+}
+/* CONTACT CARDS - RIGHT SIDE */
+#rightCards {
+    width: 64.09%;
+}
+.contact_card {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eaeaea;
+    border: 1px solid #2e2e2e;
+}
+#first_name {
+    width: 217px;
+}
+#last_name {
+    width: 219px;
+}
+textarea {
+    width: 100%;
+    margin-top: 4px;
+}
+/* SPECIFIC CLASSES */
+.borderBox {
+    box-sizing: border-box;
+}
+.textCenter {
+    text-align: center;
+}
+.bottomBorder {
+    border-bottom: 1px solid #2e2e2e
+}
+.inBlock {
+    display: inline-block;
+}
+.verTop {
+    vertical-align: top;
+}
+.italic {
+    font-style: italic;
+}
+.block {
+    display: block;
 }
